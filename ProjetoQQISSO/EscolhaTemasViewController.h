@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "FilmesViewController.h"
+#import "ComidasViewController.h"
 @interface EscolhaTemasViewController : UIViewController
 
+-(IBAction)btn_comidas:(id)sender;
+-(IBAction)btn_filmes:(id)sender;
 @end

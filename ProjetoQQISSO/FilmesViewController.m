@@ -45,7 +45,10 @@
     PlayFilmesViewController *p = [[PlayFilmesViewController alloc]init];
     
     [self presentViewController:p animated:YES completion:nil];
+}
+-(IBAction)btn_retornar:(id)sender{
     
-    
+    FilmesViewController *filmes = [[FilmesViewController alloc]init];
+    [self presentViewController:filmes animated:YES completion:nil];
 }
 @end

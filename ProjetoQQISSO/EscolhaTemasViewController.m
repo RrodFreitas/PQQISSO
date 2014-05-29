@@ -35,4 +35,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)btn_comidas:(id)sender{
+    
+    ComidasViewController *comidas = [[ComidasViewController alloc]init];
+    [self presentViewController:comidas animated:YES completion:nil];
+}
+
+-(IBAction)btn_filmes:(id)sender{
+    
+    FilmesViewController *filmes = [[FilmesViewController alloc]init];
+    [self presentViewController:filmes animated:YES completion:nil];
+}
 @end

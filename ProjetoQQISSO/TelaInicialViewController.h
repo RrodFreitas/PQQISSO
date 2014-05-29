@@ -10,4 +10,5 @@
 
 @interface TelaInicialViewController : UIViewController
 
+-(IBAction)btn_iniciar:(id)sender;
 @end
