@@ -7,7 +7,7 @@
 //
 
 #import "TelaInicialViewController.h"
-
+#import "EscolhaTemasViewController.h"
 @interface TelaInicialViewController ()
 
 @end
@@ -35,4 +35,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)btn_iniciar:(id)sender{
+    
+    EscolhaTemasViewController *temas = [[EscolhaTemasViewController alloc]init];
+    [self presentViewController:temas animated:YES completion:nil];
+}
 @end

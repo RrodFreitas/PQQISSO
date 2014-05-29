@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "FilmesViewController.h"
+#import "TelaInicialViewController.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -16,8 +16,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor blackColor];
     [self.window makeKeyAndVisible];
-    FilmesViewController *filmes = [[FilmesViewController alloc]init];
-    self.window.rootViewController = filmes;
+    TelaInicialViewController *tela = [[TelaInicialViewController alloc]init];
+    self.window.rootViewController = tela;
     return YES;
 }
 
