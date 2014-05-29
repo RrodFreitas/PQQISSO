@@ -21,6 +21,9 @@
                     <state key="normal" title="RETORNAR">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="btn_retornar:" destination="-1" eventType="touchUpInside" id="QHt-s6-kiw"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

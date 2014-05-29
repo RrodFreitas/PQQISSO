@@ -48,7 +48,6 @@
 }
 -(IBAction)btn_retornar:(id)sender{
     
-    FilmesViewController *filmes = [[FilmesViewController alloc]init];
-    [self presentViewController:filmes animated:YES completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end
