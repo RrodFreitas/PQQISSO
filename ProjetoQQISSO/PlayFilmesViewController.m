@@ -31,7 +31,7 @@
     _mainScroll.userInteractionEnabled = NO;
     _mainScroll.autoresizingMask=UIViewAutoresizingNone;
     [self.view addSubview:_mainScroll];
-    [self setupScrollView:_mainScroll comVelocidade:0.5];
+    [self setupScrollView:_mainScroll comVelocidade:2.5];
     
 }
 
@@ -74,9 +74,9 @@
     int nextPage = (int)(contentOffset/scrMain.frame.size.width) + 1 ;
     
     PerguntaViewController *pergunta = [[PerguntaViewController alloc]init];
-    
+    [scrMain addSubview: pergunta.view];
     // if page is not 10, display it
-    if( nextPage!=6 )  {
+    if( nextPage!=7 )  {
         [scrMain scrollRectToVisible:CGRectMake(nextPage*scrMain.frame.size.width, 0, scrMain.frame.size.width, scrMain.frame.size.height) animated:YES];
         pgCtr.currentPage=nextPage;
         
@@ -84,7 +84,7 @@
     } else {
       [scrMain scrollRectToVisible:CGRectMake(nextPage*scrMain.frame.size.width, 0, scrMain.frame.size.width, scrMain.frame.size.height) animated:YES];
         pgCtr.currentPage = 6;
-        [scrMain addSubview: pergunta.view];
+        
       }
 }
 

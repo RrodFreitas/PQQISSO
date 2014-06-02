@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60632548193D1363005BC9E8 /* PerguntaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60632546193D1363005BC9E8 /* PerguntaViewController.m */; };
+		60632549193D1363005BC9E8 /* PerguntaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60632547193D1363005BC9E8 /* PerguntaViewController.xib */; };
 		60D5E7B11937B87B00802DEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D5E7B01937B87B00802DEC /* Foundation.framework */; };
 		60D5E7B31937B87B00802DEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D5E7B21937B87B00802DEC /* CoreGraphics.framework */; };
 		60D5E7B51937B87B00802DEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D5E7B41937B87B00802DEC /* UIKit.framework */; };
@@ -46,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60632545193D1363005BC9E8 /* PerguntaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerguntaViewController.h; sourceTree = "<group>"; };
+		60632546193D1363005BC9E8 /* PerguntaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerguntaViewController.m; sourceTree = "<group>"; };
+		60632547193D1363005BC9E8 /* PerguntaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerguntaViewController.xib; sourceTree = "<group>"; };
 		60D5E7AD1937B87B00802DEC /* ProjetoQQISSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoQQISSO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D5E7B01937B87B00802DEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60D5E7B21937B87B00802DEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -202,6 +207,9 @@
 				60D5E7EB1937BC7A00802DEC /* PlayFilmesViewController.h */,
 				60D5E7EC1937BC7A00802DEC /* PlayFilmesViewController.m */,
 				60D5E7ED1937BC7A00802DEC /* PlayFilmesViewController.xib */,
+				60632545193D1363005BC9E8 /* PerguntaViewController.h */,
+				60632546193D1363005BC9E8 /* PerguntaViewController.m */,
+				60632547193D1363005BC9E8 /* PerguntaViewController.xib */,
 			);
 			name = filmes;
 			sourceTree = "<group>";
@@ -335,6 +343,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60632549193D1363005BC9E8 /* PerguntaViewController.xib in Resources */,
 				60D5E7F41937BD1A00802DEC /* ComidasViewController.xib in Resources */,
 				60D5E7BB1937B87B00802DEC /* InfoPlist.strings in Resources */,
 				60D5E7C31937B87B00802DEC /* Images.xcassets in Resources */,
@@ -364,6 +373,7 @@
 				60D5E7E61937BB3300802DEC /* FilmesViewController.m in Sources */,
 				60D5E7C11937B87B00802DEC /* AppDelegate.m in Sources */,
 				83CD18FE193CF85400207F78 /* Desafio.m in Sources */,
+				60632548193D1363005BC9E8 /* PerguntaViewController.m in Sources */,
 				60D5E7EE1937BC7A00802DEC /* PlayFilmesViewController.m in Sources */,
 				83CD1900193CF85400207F78 /* Resposta.m in Sources */,
 				83CD18FF193CF85400207F78 /* Pergunta.m in Sources */,
