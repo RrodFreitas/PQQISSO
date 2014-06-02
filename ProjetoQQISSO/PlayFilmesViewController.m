@@ -29,7 +29,7 @@
     
     UIScrollView *scr=[[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     scr.tag = 1;
-    scr.userInteractionEnabled = YES;
+    scr.userInteractionEnabled = NO;
     scr.autoresizingMask=UIViewAutoresizingNone;
     [self.view addSubview:scr];
     [self setupScrollView:scr];
@@ -61,7 +61,7 @@
         [scrMain addSubview:imgV];
     }
     // set the content size to 10 image width
-    [scrMain setContentSize:CGSizeMake(scrMain.frame.size.width*10, scrMain.frame.size.height)];
+    [scrMain setContentSize:CGSizeMake(scrMain.frame.size.width*6, scrMain.frame.size.height)];
     // enable timer after each 2 seconds for scrolling.
     //@selector (economiza recurso)
     [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(scrollingTimer) userInfo:nil repeats:YES];
