@@ -27,12 +27,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    UIScrollView *scr=[[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-    scr.tag = 1;
-    scr.userInteractionEnabled = NO;
-    scr.autoresizingMask=UIViewAutoresizingNone;
-    [self.view addSubview:scr];
-    [self setupScrollView:scr];
+    _mainScroll.tag = 1;
+    _mainScroll.userInteractionEnabled = NO;
+    _mainScroll.autoresizingMask=UIViewAutoresizingNone;
+    [self.view addSubview:_mainScroll];
+    [self setupScrollView:_mainScroll];
     UIPageControl *pgCtr = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 264, 480, 36)];
     [pgCtr setTag:12];
     pgCtr.numberOfPages=5;
