@@ -31,6 +31,9 @@
 		60D5E7FD1937BDB800802DEC /* EscolhaTemasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D5E7FB1937BDB800802DEC /* EscolhaTemasViewController.xib */; };
 		60D5E8031937BDFB00802DEC /* TelaInicialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D5E8011937BDFB00802DEC /* TelaInicialViewController.m */; };
 		60D5E8041937BDFB00802DEC /* TelaInicialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D5E8021937BDFB00802DEC /* TelaInicialViewController.xib */; };
+		83CD18F4193CF19900207F78 /* Desafio.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CD18EF193CF19900207F78 /* Desafio.m */; };
+		83CD18F5193CF19900207F78 /* Pergunta.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CD18F1193CF19900207F78 /* Pergunta.m */; };
+		83CD18F6193CF19900207F78 /* Resposta.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CD18F3193CF19900207F78 /* Resposta.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,12 @@
 		60D5E8001937BDFB00802DEC /* TelaInicialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelaInicialViewController.h; sourceTree = "<group>"; };
 		60D5E8011937BDFB00802DEC /* TelaInicialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelaInicialViewController.m; sourceTree = "<group>"; };
 		60D5E8021937BDFB00802DEC /* TelaInicialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TelaInicialViewController.xib; sourceTree = "<group>"; };
+		83CD18EE193CF19900207F78 /* Desafio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Desafio.h; path = "../../Projetos_BEPiD/27-05-14/QQISSO/QQISSO/Desafio.h"; sourceTree = "<group>"; };
+		83CD18EF193CF19900207F78 /* Desafio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Desafio.m; path = "../../Projetos_BEPiD/27-05-14/QQISSO/QQISSO/Desafio.m"; sourceTree = "<group>"; };
+		83CD18F0193CF19900207F78 /* Pergunta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pergunta.h; path = "../../Projetos_BEPiD/27-05-14/QQISSO/QQISSO/Pergunta.h"; sourceTree = "<group>"; };
+		83CD18F1193CF19900207F78 /* Pergunta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pergunta.m; path = "../../Projetos_BEPiD/27-05-14/QQISSO/QQISSO/Pergunta.m"; sourceTree = "<group>"; };
+		83CD18F2193CF19900207F78 /* Resposta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resposta.h; path = "../../Projetos_BEPiD/27-05-14/QQISSO/QQISSO/Resposta.h"; sourceTree = "<group>"; };
+		83CD18F3193CF19900207F78 /* Resposta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Resposta.m; path = "../../Projetos_BEPiD/27-05-14/QQISSO/QQISSO/Resposta.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +147,7 @@
 		60D5E7B61937B87B00802DEC /* ProjetoQQISSO */ = {
 			isa = PBXGroup;
 			children = (
+				83CD18ED193CF15B00207F78 /* entidades */,
 				60D5E7FF1937BDE600802DEC /* tela_inicial */,
 				60D5E7FE1937BDBC00802DEC /* escolha_de_temas */,
 				60D5E7F81937BD5E00802DEC /* app_delegate */,
@@ -240,6 +250,19 @@
 				60D5E8021937BDFB00802DEC /* TelaInicialViewController.xib */,
 			);
 			name = tela_inicial;
+			sourceTree = "<group>";
+		};
+		83CD18ED193CF15B00207F78 /* entidades */ = {
+			isa = PBXGroup;
+			children = (
+				83CD18EE193CF19900207F78 /* Desafio.h */,
+				83CD18EF193CF19900207F78 /* Desafio.m */,
+				83CD18F0193CF19900207F78 /* Pergunta.h */,
+				83CD18F1193CF19900207F78 /* Pergunta.m */,
+				83CD18F2193CF19900207F78 /* Resposta.h */,
+				83CD18F3193CF19900207F78 /* Resposta.m */,
+			);
+			name = entidades;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,8 +368,11 @@
 				60D5E8031937BDFB00802DEC /* TelaInicialViewController.m in Sources */,
 				60D5E7E61937BB3300802DEC /* FilmesViewController.m in Sources */,
 				60D5E7C11937B87B00802DEC /* AppDelegate.m in Sources */,
+				83CD18F4193CF19900207F78 /* Desafio.m in Sources */,
 				60D5E7EE1937BC7A00802DEC /* PlayFilmesViewController.m in Sources */,
 				60D5E7EA1937BC3300802DEC /* PagFilmesScrollView.m in Sources */,
+				83CD18F6193CF19900207F78 /* Resposta.m in Sources */,
+				83CD18F5193CF19900207F78 /* Pergunta.m in Sources */,
 				60D5E7BD1937B87B00802DEC /* main.m in Sources */,
 				60D5E7F71937BD4400802DEC /* PlayComidasScrollView.m in Sources */,
 				60D5E7F31937BD1A00802DEC /* ComidasViewController.m in Sources */,
@@ -547,6 +573,7 @@
 				60D5E7DB1937B87B00802DEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60D5E7DC1937B87B00802DEC /* Build configuration list for PBXNativeTarget "ProjetoQQISSOTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +582,7 @@
 				60D5E7DE1937B87B00802DEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
