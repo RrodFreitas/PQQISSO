@@ -15,5 +15,6 @@
 
 - (void)setPerguntaComId:(int)cod  comPergunta:(NSString *)pergunta eCategoria:(Categoria)cat eResposta:(Resposta* ) resp{
     
+    
 }
 @end

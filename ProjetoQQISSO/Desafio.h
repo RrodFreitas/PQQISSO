@@ -17,4 +17,5 @@
 
 - (void)setNroTelas:(int)nroTelas;
 - (Desafio *)populaDesafioComNroTelas: (int)telas eComArrayImg:(NSMutableArray *)imgs eComPergunta:(Pergunta *)pergunta eCorBackGround:(UIColor *)cor eVelocTransicao:(int)velocidade;
+
 @end

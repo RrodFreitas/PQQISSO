@@ -19,6 +19,7 @@
     [d setPergunta:pergunta];
     [d setCor:cor];
     [d setVelocidadeTransicao:velocidade];
+    
   
     return d;
 }

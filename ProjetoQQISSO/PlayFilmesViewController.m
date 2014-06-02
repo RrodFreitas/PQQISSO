@@ -60,6 +60,22 @@
         // add to scrollView
         [scrMain addSubview:imgV];
     }
+    for (int i=0; i<6; i++) {
+        // create image
+        //UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"sti%02i.jpeg",i]];
+        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.png",i]];
+        
+        // create imageView
+        UIImageView *imgV = [[UIImageView alloc] initWithFrame:CGRectMake((i-1)*scrMain.frame.size.width, 0, scrMain.frame.size.width, scrMain.frame.size.height)];
+        // set scale to fill
+        imgV.contentMode=UIViewContentModeScaleToFill;
+        // set image
+        [imgV setImage:image];
+        // apply tag to access in future
+        imgV.tag=i+1;
+        // add to scrollView
+        [scrMain addSubview:imgV];
+    }
     // set the content size to 10 image width
     [scrMain setContentSize:CGSizeMake(scrMain.frame.size.width*6, scrMain.frame.size.height)];
     // enable timer after each 2 seconds for scrolling.

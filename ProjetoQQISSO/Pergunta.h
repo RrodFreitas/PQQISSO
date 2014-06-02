@@ -20,6 +20,7 @@ typedef NS_ENUM(NSInteger, Categoria) {
 @property (nonatomic,weak) Resposta *resp;
 
 
+
 - (NSString *)getPergunta:(int) cod;
 
 - (void)setPerguntaComId:(int)cod comPergunta:(NSString *)pergunta eCategoria:(Categoria)cat eResposta:(Resposta* ) resp;
