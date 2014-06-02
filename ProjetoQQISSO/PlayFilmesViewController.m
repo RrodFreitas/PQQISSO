@@ -7,7 +7,7 @@
 //
 
 #import "PlayFilmesViewController.h"
-#import "PagFilmesScrollView.h"
+
 @interface PlayFilmesViewController ()
 @end
 
