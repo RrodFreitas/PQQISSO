@@ -15,6 +15,7 @@
 @property (nonatomic,weak) UIColor *cor;
 @property (nonatomic) int velocidadeTransicao;
 
+
 - (void)setNroTelas:(int)nroTelas;
 - (Desafio *)populaDesafioComNroTelas: (int)telas eComArrayImg:(NSMutableArray *)imgs eComPergunta:(Pergunta *)pergunta eCorBackGround:(UIColor *)cor eVelocTransicao:(int)velocidade;
 
