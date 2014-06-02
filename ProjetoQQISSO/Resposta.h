@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Resposta : NSObject
+
 @property (nonatomic) int idResposta;
 @property (nonatomic) NSString *resposta;
 
