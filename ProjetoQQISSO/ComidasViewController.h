@@ -10,5 +10,7 @@
 
 @interface ComidasViewController : UIViewController
 
+
+-(IBAction)action_go1:(id)sender;
 -(IBAction)btn_retornar:(id)sender;
 @end

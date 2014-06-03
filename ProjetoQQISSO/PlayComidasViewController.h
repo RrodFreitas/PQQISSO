@@ -10,4 +10,9 @@
 
 @interface PlayComidasViewController : UIViewController
 
+@property (nonatomic) int screenWidth;
+@property (nonatomic) int screenHeight;
+@property (nonatomic) int numberOfViews;
+@property (weak, nonatomic) IBOutlet UIScrollView *mainScroll;
+
 @end
