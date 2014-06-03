@@ -1,18 +1,18 @@
 //
-//  ComidasViewController.m
+//  PlayComidasViewController.m
 //  ProjetoQQISSO
 //
-//  Created by Luís Resende on 29/05/14.
+//  Created by Rodrigo Von-Grapp Freitas on 03/06/14.
 //  Copyright (c) 2014 Luis Resende. All rights reserved.
 //
 
-#import "ComidasViewController.h"
 #import "PlayComidasViewController.h"
-@interface ComidasViewController ()
+
+@interface PlayComidasViewController ()
 
 @end
 
-@implementation ComidasViewController
+@implementation PlayComidasViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,13 +35,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)action_go1:(id)sender {
-    PlayComidasViewController *p = [[PlayComidasViewController alloc]init];
-    
-    [self presentViewController:p animated:YES completion:nil];
-}
--(IBAction)btn_retornar:(id)sender{
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
-}
 @end
